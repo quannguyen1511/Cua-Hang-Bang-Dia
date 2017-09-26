@@ -15,5 +15,20 @@ namespace WindowsFormsApplication1
         {
             InitializeComponent();
         }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            label1.ForeColor = Color.Blue;
+        }
+
+        private void timer2_Tick(object sender, EventArgs e)
+        {
+            label1.ForeColor = Color.Red;
+        }
+
+        private void timer3_Tick(object sender, EventArgs e)
+        {
+            label1.ForeColor = Color.Yellow;
+        }
     }
 }
